@@ -49,8 +49,7 @@ export default function SignUp() {
             Blog
           </Link>
           <p className='text-sm mt-5'>
-            This is a demo project. You can sign up with your email and password
-            or with Google.
+          Welcome to Bitz Blogging App
           </p>
         </div>
         {/* right */}
@@ -70,7 +69,7 @@ export default function SignUp() {
               <Label value='Your email' />
               <TextInput
                 type='email'
-                placeholder='name@company.com'
+                placeholder='Enter your Email address'
                 id='email'
                 onChange={handleChange}
               />
